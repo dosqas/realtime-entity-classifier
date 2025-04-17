@@ -172,3 +172,22 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore Jupyter notebook checkpoint files
+.ipynb_checkpoints/
+
+# Ignore Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore other temporary files you might create
+*.log
+*.bak
+
+# Ignore the data/ directory if it contains large datasets that you don't want to track
+data/
