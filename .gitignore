@@ -189,5 +189,5 @@ venv/
 *.log
 *.bak
 
-# Ignore the data/ directory if it contains large datasets that you don't want to track
-data/
+# Ignore the IDE-generated files from PyCharm
+.idea/
