@@ -198,3 +198,6 @@ realtime-entity-classifier/
 - **[OpenCV](https://opencv.org/)** – for enabling efficient image and video processing  
 - **[Human Faces Dataset (Kaggle)](https://www.kaggle.com/datasets/ashwingupta3012/human-faces?resource=download)** – used for training on diverse human faces for the "other person" class
 - **My friend Bogdan and his cat Felix** - for helping me with data to train the model for the "pet" class
+
+## 💡 Contact
+For any questions or suggestions, feel free to contact me at [sebastian.soptelea@proton.me].
