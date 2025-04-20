@@ -1,0 +1,23 @@
+# ======================
+# Core PyTorch Stack
+# ======================
+torch>=2.0.0              # Base tensor library (includes torch.nn, torch.optim)
+torchvision>=0.15.0       # For models, transforms, and datasets
+torchaudio>=2.0.0         # Often installed alongside torch (not strictly needed here)
+
+# ======================
+# Computer Vision
+# ======================
+opencv-python>=4.7.0      # cv2
+pillow>=9.5.0             # PIL (Image class)
+
+# ======================
+# Data Processing
+# ======================
+numpy>=1.24.0
+tqdm>=4.65.0              # Progress bars
+
+# ======================
+# Visualization
+# ======================
+matplotlib>=3.7.0         # For training plots
