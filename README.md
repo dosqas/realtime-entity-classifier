@@ -4,6 +4,8 @@ A smart computer vision system that identifies and classifies people and pets in
 
 ![Project Demo](./demo/project_demo.gif)
 
+---
+
 ## ✨ Key Features
 
 - **Four-Class Detection**: Accurately identifies `owner`, `pet`, `other person`, and `background` classes
@@ -12,6 +14,8 @@ A smart computer vision system that identifies and classifies people and pets in
 - **Privacy-Focused**: All processing happens locally on your device
 - **Interactive Controls**: Toggle segmentation mode and visualize confidence scores
 - **Memory Efficient**: Optimized for resource-constrained environments
+
+---
 
 ## 🧠 Technical Overview
 
@@ -22,6 +26,8 @@ This project combines transfer learning with efficient model deployment to creat
 - **Confidence Threshold**: Auto-switching between models at 0.7 confidence level
 - **Training Method**: Transfer learning with frozen feature extraction layers
 - **Performance**: 99.4% accuracy in ideal conditions, 84.2% in low light
+
+---
 
 ## 📊 Model Specifications
 
@@ -35,6 +41,8 @@ This project combines transfer learning with efficient model deployment to creat
 | Inference Speed | 33 FPS @ 640x480 |
 | Hardware Tested | NVIDIA RTX 3050, CUDA 11.8 |
 | Framework | PyTorch 3.13.2 |
+
+---
 
 ## 🚀 Getting Started
 
@@ -63,6 +71,8 @@ python src/realtime_classifier.py
 
 - Press `s` to toggle forced segmentation mode
 - Press `q` to quit
+
+---
 
 ## 🏗️ Architecture Details
 
@@ -101,6 +111,8 @@ When classification confidence drops below threshold:
 3. Classification is re-run on the masked input
 4. System returns to normal mode after confidence improves
 
+---
+
 ## 📈 Performance Metrics
 
 ### Training Progress
@@ -130,6 +142,8 @@ When classification confidence drops below threshold:
     - Includes **2,500 cropped face images** from the [Human Faces Kaggle dataset](https://www.kaggle.com/datasets/ashwingupta3012/human-faces?resource=download).
   - `background`: 8,750 samples (25.3%)  
     - Captured from a **30-second video** of walking around the house with no subject in focus.
+   
+---
 
 ## 🧪 Known Limitations
 
@@ -141,6 +155,8 @@ When classification confidence drops below threshold:
    - Needs ≥92% confidence to reliably classify "owner" vs "other person"
    - False positives with reflections (mirrors, glass)
    - May struggle with diverse "other person" examples
+  
+---
 
 ## 🔧 Customization
 
@@ -157,6 +173,8 @@ CONFIDENCE_THRESHOLD = 0.7  # Default
 # In realtime_classifier.py
 PET_MASK_ENABLED = True  # Set to False to disable generic pet detection
 ```
+
+---
 
 ## 📂 Project Structure
 
@@ -191,6 +209,8 @@ realtime-entity-classifier/
 └── README.md                        # Project overview and usage guide
 ```
 
+---
+
 ## 🙏 Acknowledgments
 
 - **[PyTorch](https://pytorch.org/)** – for the powerful and flexible deep learning framework  
@@ -198,6 +218,14 @@ realtime-entity-classifier/
 - **[OpenCV](https://opencv.org/)** – for enabling efficient image and video processing  
 - **[Human Faces Dataset (Kaggle)](https://www.kaggle.com/datasets/ashwingupta3012/human-faces?resource=download)** – used for training on diverse human faces for the "other person" class
 - **My friend Bogdan and his cat Felix** - for helping me with data to train the model for the "pet" class
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 💡 Contact
 
