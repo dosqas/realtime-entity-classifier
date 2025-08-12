@@ -200,4 +200,5 @@ realtime-entity-classifier/
 - **My friend Bogdan and his cat Felix** - for helping me with data to train the model for the "pet" class
 
 ## 💡 Contact
-For any questions or suggestions, feel free to contact me at [sebastian.soptelea@proton.me].
+
+Questions, feedback, or ideas? Reach out anytime at [sebastian.soptelea@proton.me](mailto:sebastian.soptelea@proton.me).
