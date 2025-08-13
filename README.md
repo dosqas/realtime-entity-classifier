@@ -2,7 +2,8 @@
 
 A smart computer vision system that identifies and classifies people and pets in real-time using advanced deep learning techniques.
 
-![Project Demo](./demo/project_demo.gif)
+![Project Demo](./demo/project_demo.gif)  
+*"Watch the app nail the purr-fect prediction — correctly spotting me and my friend’s cat, Felix!"*
 
 ---
 
